@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form frmTest 
+Begin VB.Form weatherForm 
    BackColor       =   &H8000000A&
    BorderStyle     =   1  'Fixed Single
    Caption         =   "Weather App"
@@ -7,7 +7,7 @@ Begin VB.Form frmTest
    ClientLeft      =   45
    ClientTop       =   330
    ClientWidth     =   5820
-   Icon            =   "frmTest.frx":0000
+   Icon            =   "weatherForm.frx":0000
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
@@ -33,9 +33,9 @@ Begin VB.Form frmTest
    Begin VB.ComboBox SelectCity 
       BackColor       =   &H8000000A&
       Height          =   315
-      ItemData        =   "frmTest.frx":058A
+      ItemData        =   "weatherForm.frx":058A
       Left            =   2400
-      List            =   "frmTest.frx":059D
+      List            =   "weatherForm.frx":059D
       TabIndex        =   1
       Text            =   "Select city"
       Top             =   600
@@ -80,7 +80,7 @@ Begin VB.Form frmTest
       Width           =   975
    End
 End
-Attribute VB_Name = "frmTest"
+Attribute VB_Name = "weatherForm"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
